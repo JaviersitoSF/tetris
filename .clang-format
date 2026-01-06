@@ -22,7 +22,7 @@ AllowShortIfStatementsOnASingleLine: Never
 AllowShortLambdasOnASingleLine: Empty
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakAfterReturnType: None
-AlwaysBreakTemplateDeclarations: Yes
+BreakTemplateDeclarations: Leave
 BinPackArguments: false
 BinPackParameters: false
 #BitFieldColonSpacingStyle: Both
@@ -63,7 +63,7 @@ IncludeBlocks: Preserve
 IndentCaseLabels: false
 #IndentExternBlock: NoIndent
 IndentGotoLabels: false
-IndentPPDirectives: BeforeHash
+IndentPPDirectives: All
 IndentWrappedFunctionNames: true
 KeepEmptyLinesAtTheStartOfBlocks: true
 MaxEmptyLinesToKeep: 1
@@ -92,7 +92,6 @@ SpacesInConditionalStatement: false
 SpacesInContainerLiterals: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
-UseTab: Always
----
+UseTab: Never ---
 
 # vim: ft=yaml
