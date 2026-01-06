@@ -1,0 +1,8 @@
+Checks:
+'-*,bugprone-*,cppcoreguidelines-*,google-*,misc-*,modernize-*,performance-*,
+readability-*,cert-*,clang-analyzer-*,concurrency-*,hicpp-*,portability-*,
+-modernize-use-trailing-return-type,-modernize-redundant-void-arg,
+-readability-implicit-bool-conversion,-bugprone-exception-escape,
+-readability-identifier-length'
+
+FormatStyle: 'file'
